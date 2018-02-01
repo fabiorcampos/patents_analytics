@@ -22,3 +22,4 @@ patents <- data.frame(abstract = patents$patents.patent_abstract,
                       title = patents$patents.patent_title,
                       type = patents$patents.patent_type)
 
+write.csv(patents, file = "example.csv")
